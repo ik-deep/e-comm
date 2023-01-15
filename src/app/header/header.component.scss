@@ -1,0 +1,47 @@
+.parent{
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 10vh;
+    align-items: center;
+    color: bisque;
+}
+.p-menu{
+    // margin-right: 22rem
+}
+.menu{
+    display:flex;
+    justify-content: space-between;
+    width: 25rem;
+   font-size: larger;
+}
+.search{
+  
+}
+
+.logo{
+    font-size: 2rem;
+}
+.seller-menu{
+    display: flex;
+    justify-content: space-between;
+    width: 40rem;
+    font-size: larger;
+}
+
+.suggested-search{
+    position: absolute;
+    top: 40px;
+    z-index: 10;
+    display: list-item !important;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    width: 300px;
+  }
+  .suggested-search li {
+    padding:5px;
+    border: 1px solid #ddd;
+  }
+  .suggested-search li a{
+    cursor: pointer;
+    color: blueviolet;
+  }

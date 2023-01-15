@@ -1,0 +1,120 @@
+{
+  "seller": [
+    {
+      "name": "irfan",
+      "phone": "786953456",
+      "email": "khan@gmail.com",
+      "password": "irfan@kjjkhan",
+      "c_password": "irfan@kjjkhan",
+      "id": 1
+    },
+    {
+      "name": "xsd",
+      "phone": "345665434566654",
+      "email": "ik7417990@gmail.com",
+      "password": "gzE9rmMdXJKzYrk",
+      "c_password": "gzE9rmMdXJKzYrk",
+      "id": 3
+    },
+    {
+      "name": "irfan khan",
+      "phone": "7651990858",
+      "email": "ik7417990@gmail.com",
+      "password": "irfan@khan",
+      "c_password": "irfan@khan",
+      "id": 4
+    }
+  ],
+  "product": [
+    {
+      "name": "HTC",
+      "price": "700000",
+      "category": "MObile",
+      "color": "Blac",
+      "image": "https://cdn1.smartprix.com/rx-iiLf2z5dO-w1200-h1200/iLf2z5dO.jpg",
+      "description": "efrvbfvcedededfcredcfrdcerdfcredfcedxfcdddddddddddddddddddddddddddddddddddddddddddddddd",
+      "id": 2
+    },
+    {
+      "name": "HTC",
+      "price": "700000",
+      "category": "MObile",
+      "color": "Black",
+      "image": "https://cdn1.smartprix.com/rx-iiLf2z5dO-w1200-h1200/iLf2z5dO.jpg",
+      "description": "efrvbfvcedededfcredcfrdcerdfcredfcedxfcdddddddddddddddddddddddddddddddddddddddddddddddd",
+      "id": 3
+    },
+    {
+      "name": "HTC",
+      "price": "700000",
+      "category": "MObile",
+      "color": "Black",
+      "image": "https://cdn1.smartprix.com/rx-iiLf2z5dO-w1200-h1200/iLf2z5dO.jpg",
+      "description": "efrvbfvcedededfcredcfrdcerdfcredfcedxfcdddddddddddddddddddddddddddddddddddddddddddddddd",
+      "id": 4
+    },
+    {
+      "name": "HTC",
+      "price": "700000",
+      "category": "MObile",
+      "color": "Black",
+      "image": "https://cdn1.smartprix.com/rx-iiLf2z5dO-w1200-h1200/iLf2z5dO.jpg",
+      "description": "efrvbfvcedededfcredcfrdcerdfcredfcedxfcdddddddddddddddddddddddddddddddddddddddddddddddd",
+      "id": 5
+    },
+    {
+      "name": "HTC",
+      "price": "700000",
+      "category": "MObile",
+      "color": "Black",
+      "image": "https://cdn1.smartprix.com/rx-iiLf2z5dO-w1200-h1200/iLf2z5dO.jpg",
+      "description": "efrvbfvcedededfcredcfrdcerdfcredfcedxfcdddddddddddddddddddddddddddddddddddddddddddddddd",
+      "id": 6
+    },
+    {
+      "name": "HTC",
+      "price": "700000",
+      "category": "MObile",
+      "color": "Black",
+      "image": "https://cdn1.smartprix.com/rx-iiLf2z5dO-w1200-h1200/iLf2z5dO.jpg",
+      "description": "zswxdecfrvgtbyhuj",
+      "id": 7
+    },
+    {
+      "name": "HTC",
+      "price": "700000",
+      "category": "MObile",
+      "color": "Black",
+      "image": "https://cdn1.smartprix.com/rx-iiLf2z5dO-w1200-h1200/iLf2z5dO.jpg",
+      "description": "zswxdecfrvgtbyhuj",
+      "id": 8
+    },
+    {
+      "name": "HTC",
+      "price": "700000",
+      "category": "MObile",
+      "color": "Black",
+      "image": "https://cdn1.smartprix.com/rx-iiLf2z5dO-w1200-h1200/iLf2z5dO.jpg",
+      "description": "zswxdecfrvgtbyhuj",
+      "id": 9
+    },
+    {
+      "name": "HTC",
+      "price": "700000",
+      "category": "MObile",
+      "color": "Black",
+      "image": "https://cdn1.smartprix.com/rx-iiLf2z5dO-w1200-h1200/iLf2z5dO.jpg",
+      "description": "zswxdecfrvgtbyhuj",
+      "id": 10
+    },
+    {
+      "name": "HTC",
+      "price": "700000",
+      "category": "MObile",
+      "color": "Black",
+      "image": "https://cdn1.smartprix.com/rx-iiLf2z5dO-w1200-h1200/iLf2z5dO.jpg",
+      "description": "zswxdecfrvgtbyhuj",
+      "id": 11
+    }
+  ]
+}

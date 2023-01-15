@@ -1,0 +1,61 @@
+<div  class="row">
+    <div class="col-md-4 offset-md-4 col-sm-6 offset-sm-3">
+      <div ngDraggable class="card auth">
+        <div class="card-body auth-card">
+          <div class="auth-avatar">
+            <img src="https://pluspng.com/img-png/user-png-icon-account-avatar-human-male-man-men-people-person-download-svg-download-png-edit-icon-512.png" alt="user" class="user-image">
+          </div>
+          <form *ngIf="!showLogin" #sellerSignUp="ngForm" (ngSubmit)="signUp(sellerSignUp.form.value)">
+              <div class="form-group m-2">
+                <label for="name">Name : </label>
+                <input type="text" name="name" class="form-control" placeholder="Name" ngModel required>
+              </div>
+              <div class="form-group m-2">
+                <label for="phone">Phone : </label>
+                <input type="text" name="phone" class="form-control" placeholder="Phone" ngModel required>
+              </div>
+              <div class="form-group m-2">
+                <label for="email">Email : </label>
+                <input type="text" name="email" class="form-control" placeholder="Email" ngModel required>
+              </div>
+              <div class="form-group m-2">
+                <label for="password">Password : </label>
+                <input type="password" name="password" class="form-control" placeholder="********" ngModel required>
+              </div>
+              <div class="form-group m-2">
+                <label for="c_password">Confirm Password : </label>
+                <input type="password" name="c_password" class="form-control" placeholder="********" ngModel>
+              </div>
+              <div class="text-center m-3" >
+                <input type="submit" class="btn btn-my button-LS" value="Sign Up">
+              </div>
+              <div class="text-center login">
+                Already have an account ? <a (click)="openLogin()" style="cursor:'pointer'; color: #d39e00;">Login</a> here.
+              </div>
+              
+          </form>
+
+          <form *ngIf="showLogin" #sellerLogin="ngForm" (ngSubmit)="login(sellerLogin.form.value)">
+            <div class="form-group m-2">
+              <label for="email">Email : </label>
+              <input type="text" name="email" class="form-control" placeholder="Email" ngModel>
+            </div>
+            <div class="form-group m-2">
+              <label for="password">Password : </label>
+              <input type="password" name="password" class="form-control" placeholder="********" ngModel>
+              <div class="text-right forget-pass m-2">
+                <a routerLink="/forget-password">Forget Password ?</a>
+              </div>
+            </div>
+            <div class="text-center m-2">
+              <input type="submit" class="btn btn-my button-LS" value="Login">
+            </div>
+            <div class="text-center sign-up">
+                Don`t have an account ? <a (click)="openSignUp()" style="cursor:'pointer'; color: #d39e00;">Sign Up</a> here.
+              </div>
+          </form>
+         
+        </div>
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,57 @@
+<div ngDraggable class="row">
+    <div class="col-md-4 offset-md-4 col-sm-6 offset-sm-3">
+        <div class="card product-auth">
+            <h1 class=" text-center m-4">Add Product</h1>
+            <div class="card-body auth-card">
+                <!-- <div class="auth-avatar">
+            <img src="https://pluspng.com/img-png/user-png-icon-account-avatar-human-male-man-men-people-person-download-svg-download-png-edit-icon-512.png" alt="user" class="user-image">
+          </div> -->
+                <form #Product="ngForm" (ngSubmit)="addProduct(Product.form.value)">
+
+                    <div class=" d-flex justify-content-between form-group">
+                        <div class="form-group m-2">
+                            <label for="name"> Product Name : </label>
+                            <input type="text" name="name" class="form-control" placeholder="Enter Product Name" ngModel
+                                required>
+                        </div>
+                        <div class="form-group m-2">
+                            <label for="price">Product Price : </label>
+                            <input type="text" name="price" class="form-control" placeholder="Enter Product Price"
+                                ngModel required>
+                        </div>
+                    </div>
+                        <div class=" d-flex justify-content-between form-group ">
+                            <div class="form-group m-2">
+                                <label for="category">Product Category : </label>
+                                <input type="text" name="category" class="form-control"
+                                    placeholder="Enter Product Category" ngModel required>
+                            </div>
+                            <div class="form-group m-2">
+                                <label for="color">Product Color : </label>
+                                <input type="text" name="color" class="form-control"
+                                    placeholder="Enter Product Color" ngModel required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-group m-2">
+                                <label for="image">Product Image URL : </label>
+                                <input type="text" name="image" class="form-control"
+                                    placeholder="Enter Product Image URL" ngModel required>
+                            </div>
+                        </div>
+                  
+                    <div class="form-group">
+                        <div class="form-group m-2">
+                            <label for="description">Description : </label>
+                            <textarea type="text" name="description" class="form-control"
+                                placeholder="Enter Product Description " ngModel required></textarea>
+                        </div>
+                    </div>
+                    <div class="text-center m-3">
+                        <input type="submit" class="btn btn-my button-LS" value="Add Product">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
