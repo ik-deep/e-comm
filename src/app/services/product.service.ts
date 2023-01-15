@@ -36,8 +36,6 @@ export class ProductService {
   }
  
   searchProduct(query: string) {
-    return this.http.get<product[]>(
-      `http://localhost:3000/products?q=${query}`
-    );
+    return this.http.get<product[]>(`http://localhost:3000/product?q=${query}`);
   }
 }

@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import {product} from '../data-type'
 import { ProductService } from '../services/product.service';
+import {faSearch} from '@fortawesome/free-solid-svg-icons'
 
 
 @Component({
@@ -12,6 +13,7 @@ import { ProductService } from '../services/product.service';
 export class HeaderComponent implements OnInit {
   menuType: string = 'default'
   sellerName: string = '';
+  searchIcon = faSearch;
   searchResult: product[] | undefined;
   // searchResult=undefined|product[];
   constructor(private rout: Router, private product: ProductService) { }
@@ -32,6 +34,7 @@ export class HeaderComponent implements OnInit {
       }
     })
   }
+  
   logOut() {
     localStorage.removeItem('seller');
     this.rout.navigate(['/']);
@@ -42,7 +45,7 @@ export class HeaderComponent implements OnInit {
       this.product.searchProduct(element.value).subscribe((result)=>{
        
         if(result.length>5){
-          result.length=length
+          result.length=5
         }
         this.searchResult=result;
       })
